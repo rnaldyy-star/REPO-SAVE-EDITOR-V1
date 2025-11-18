@@ -24,7 +24,13 @@ export default async function downloadSaveGame(
     JSON.stringify(saveGame, null, 4),
     ENCRYPTION_KEY
   )
-  const blob = new Blob([binaryData])
+
+  // FIX: Convert Uint8Array to BlobPart compatible
+  const safeBinary = new Uint8Array(binaryData)
+
+  const blob = new Blob([safeBinary.buffer], {
+    type: 'application/octet-stream'
+  })
 
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
