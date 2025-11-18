@@ -1,0 +1,20 @@
+'use client'
+
+import { DarkModeToggle } from '@/components/dark-mode-toggle'
+import { LocaleSelector }from '@/components/locale-selector'
+import Logo from '@/components/logo'
+
+export default function Navbar() {
+  return (
+    <div>
+      <div className="bg-background/50 fixed z-50 flex w-full items-center justify-between border-b px-7 pt-2 backdrop-blur md:px-12">
+        <Logo />
+      </div>
+
+      <div className="flex -translate-y-1 gap-2">
+        <DarkModeToggle />
+        <LocaleSelector />
+      </div>
+    </div>
+  )
+}

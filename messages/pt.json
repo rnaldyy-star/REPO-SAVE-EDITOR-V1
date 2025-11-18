@@ -1,0 +1,161 @@
+{
+  "version_history": {
+    "title": "Histórico de Versões",
+    "description": "Esta é uma lista de todas as alterações feitas no projeto. Inclui correções de bugs, novos recursos e outras melhorias.",
+    "release_date": "Data de Lançamento",
+    "changes": "Alterações"
+  },
+  "upload_file": {
+    "title": "Enviar arquivo",
+    "description": "Arraste e solte o arquivo de save game aqui ou clique para selecionar.",
+    "status": {
+      "over": "pode soltar o arquivo agora.",
+      "enter": "solte! solte! solte!",
+      "leave": "coloque o(s) arquivo(s) aqui.",
+      "none": "clique para selecionar, ou arraste o arquivo.",
+      "mouseEnter": "clique para selecionar o arquivo."
+    },
+    "success": {
+      "copy": "Arquivo copiado para a área de transferência!"
+    },
+    "save_game": {
+      "info": "Os savegames usualmente ficam localizados em"
+    },
+    "error": {
+      "invalid_file_type": "Tipo de arquivo inválido!",
+      "select_one_file": "Selecione apenas um arquivo!"
+    }
+  },
+  "save_editor": {
+    "error": {
+      "invalid_file": "Arquivo inválido! Por favor, faça o upload de um arquivo de save game válido."
+    }
+  },
+  "save_history": {
+    "title": "Recentes",
+    "clear": "Limpar histórico",
+    "level": "Nível:",
+    "total_haul": "Total extraído:",
+    "players": "Jogadores:",
+    "load": "Carregar Save",
+    "download": "Baixar",
+    "disclaimer": "Os dados do save game são armazenados localmente no seu navegador. Eles não são enviados para nenhum servidor e são excluídos quando você limpa o cache do navegador ou usa o modo de navegação anônima.",
+    "disable": "Desabilitar histórico",
+    "enable": "Habilitar histórico",
+    "disabled": "Histórico desabilitado",
+    "empty": "Nenhum save recente encontrado."
+  },
+  "github_stars": {
+    "title": "Estrelas",
+    "description": "Se você gosta do projeto, considere dar uma estrela no GitHub!"
+  },
+  "save_data": {
+    "new_file": "Novo arquivo",
+    "reset": "Redefinir Alterações",
+    "save": "Salvar",
+    "players": "Jogadores",
+    "run_data": "Dados da Run"
+  },
+  "player_list": {
+    "title": "Lista de Jogadores",
+    "status": "Status",
+    "upgrades": "Melhorias",
+    "attributes": {
+      "playerHealth": "Saúde",
+      "playerUpgradeStamina": "Estamina",
+      "playerUpgradeSpeed": "Velocidade",
+      "playerUpgradeStrength": "Força",
+      "playerUpgradeRange": "Alcance",
+      "playerUpgradeLaunch": "Lançamento",
+      "playerUpgradeExtraJump": "Salto Extra",
+      "playerUpgradeMapPlayerCount": "Contagem de Jogadores",
+      "playerUpgradeHealth": "Vida",
+      "playerUpgradeCrouchRest": "Descanso ao Agachar",
+      "playerUpgradeTumbleWings": "Asas ao Cair"
+    }
+  },
+  "remove_player": {
+    "confirmation_title": "Você tem certeza absoluta?",
+    "confirmation_description": "Isso removerá permanentemente o jogador do seu save game.",
+    "cancel": "Cancelar",
+    "continue": "Continuar",
+    "button_label": "Remover jogador"
+  },
+  "run_stats": {
+    "title": "Dados da Run",
+    "played_time": "jogados",
+    "items_title": "Itens",
+    "edit_time": "Editar tempo jogado",
+    "edit_time_title": "Editar Tempo Jogado",
+    "edit_time_description": "Ajuste o tempo jogado para seu save game",
+    "hours": "Horas",
+    "minutes": "Minutos",
+    "seconds": "Segundos",
+    "cancel": "Cancelar",
+    "save": "Salvar",
+    "stats": {
+      "level": "Nível",
+      "currency": "Dinheiro (K)",
+      "total_haul": "Total extraído (K)",
+      "charging_station": "Cargas na base",
+      "Cart Medium": "Carrinho Médio",
+      "Cart Small": "Carrinho Pequeno",
+      "Drone Battery": "Bateria de Drone",
+      "Drone Feather": "Drone Leve",
+      "Drone Indestructible": "Drone Indestrutível",
+      "Drone Torque": "Drone de Torque",
+      "Drone Zero Gravity": "Drone Antigravidade",
+      "Extraction Tracker": "Rastreador de Extração",
+      "Grenade Duct Taped": "Granada de Fita Adesiva",
+      "Grenade Explosive": "Granada Explosiva",
+      "Grenade Human": "Granada Humana",
+      "Grenade Shockwave": "Granada de Onda de Choque",
+      "Grenade Stun": "Granada de Atordoamento",
+      "Gun Handgun": "Pistola",
+      "Gun Shotgun": "Espingarda",
+      "Gun Tranq": "Arma de Dardo",
+      "Health Pack Large": "Kit de Saúde Grande",
+      "Health Pack Medium": "Kit de Saúde Médio",
+      "Health Pack Small": "Kit de Saúde Pequeno",
+      "Melee Baseball Bat": "Taco de Beisebol",
+      "Melee Frying Pan": "Frigideira",
+      "Melee Inflatable Hammer": "Martelo Inflável",
+      "Melee Sledge Hammer": "Marreta",
+      "Melee Sword": "Espada",
+      "Mine Explosive": "Mina Explosiva",
+      "Mine Shockwave": "Mina de Onda de Choque",
+      "Mine Stun": "Mina de Atordoamento",
+      "Orb Zero Gravity": "Orbe Antigravidade",
+      "Power Crystal": "Cristal de Poder",
+      "Rubber Duck": "Pato de Borracha",
+      "Upgrade Map Player Count": "Melhoria de Contagem de Jogadores no Mapa",
+      "Upgrade Player Energy": "Melhoria de Energia do Jogador",
+      "Upgrade Player Extra Jump": "Melhoria de Salto Extra",
+      "Upgrade Player Grab Range": "Melhoria de Alcance de Agarre",
+      "Upgrade Player Grab Strength": "Melhoria de Força de Agarre",
+      "Upgrade Player Health": "Melhoria de Saúde do Jogador",
+      "Upgrade Player Sprint Speed": "Melhoria de Velocidade de Corrida",
+      "Upgrade Player Tumble Launch": "Melhoria de Lançamento ao Cair",
+      "Valuable Tracker": "Rastreador de Itens Valiosos",
+      "Gun Stun": "Arma de Atordoamento",
+      "Melee Stun Baton": "Cassetete de Atordoamento",
+      "Gun Shockwave": "Arma de Onda de Choque",
+      "Duck Bucket": "Balde de Pato",
+      "Cart Cannon": "Canhão de Carrinho",
+      "Cart Laser": "Laser de Carrinho",
+      "Gun Laser": "Arma de Laser",
+      "Phase Bridge": "Ponte de Fase",
+      "Upgrade Player Crouch Rest": "Melhoria de Descanso ao Agachar",
+      "Upgrade Player Tumble Wings": "Melhoria de Asas ao Cair"
+    }
+  },
+  "theme": {
+    "toggle": "Alterar Tema",
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
+  },
+  "footer": {
+    "description": "Feito com ❤️ por"
+  }
+}
