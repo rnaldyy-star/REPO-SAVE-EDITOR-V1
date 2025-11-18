@@ -1,6 +1,6 @@
 # R.E.P.O Save Editor
 
-[<img src="https://flagcdn.com/w20/br.png" alt="Bandeira do Brasil"> Versão em Português](./README.pt.md)
+
 
 <div>
   <img src="src/app/icon.png" alt="R.E.P.O Save Editor Logo" width="200" height="200" />
@@ -15,7 +15,6 @@ R.E.P.O Save Editor is a web application that allows you to modify R.E.P.O game 
 - Purchased items and upgrades
 - Team settings and configurations
 
-**Try it now: [https://repo-save-editor.vercel.app](https://repo-save-editor.vercel.app)**
 
 ## Technologies
 
@@ -32,8 +31,6 @@ This project is built using modern web technologies:
 ## Getting Started
 
 ```bash
-# Clone the repository
-git clone https://github.com/luccasfr/repo-save-editor.git
 
 # Navigate to the project directory
 cd repo-save-editor
@@ -75,9 +72,6 @@ Special thanks to [N0edL's R.E.P.O Save Editor](https://github.com/N0edL/R.E.P.O
   <tbody>
     <tr>
       <td align="center">
-        <a href="https://github.com/luccasfr">
-          <img src="https://github.com/luccasfr.png?size=100" alt="Lucas Ferreira" />
-          <p>Lucas Ferreira</p>
         </a>
       </td>
     </tr>
